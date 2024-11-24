@@ -8,18 +8,17 @@ Before starting the exploitation process, it’s important to ensure that the ta
 ping <192.168.3.130>
 This command sends packets to the Metasploitable machine and confirms if the network connection is working. The expected result is a series of replies from the target machine, indicating successful connectivity.
 
+
 ![ping results](https://github.com/Cyb3rCairo/CyberSec-Practice/blob/main/pentest-images/1.%20ping-scan.png)
 
 Step 2: Scanning Port 80 with Nmap and Service Version Detection
 Once the target was reachable, I performed a more detailed scan of port 80 using the Nmap tool with the -sV option to detect service versions. This command helps identify what service is running on port 80 and its version, which can reveal potential vulnerabilities.
 
-bash
-Copiar código
-nmap -sV 192.168.3.130 -p 80
 Explanation:
 
 -sV: This flag tells Nmap to attempt to detect the version of the service running on the open port.
 -p 80: Specifies that the scan should focus only on port 80.
 Expected Output: The output will show the open port and the version of the service running on it (e.g., Apache). Here’s an example of what it might look like:
+
 
 ![ping results](https://github.com/Cyb3rCairo/CyberSec-Practice/blob/main/pentest-images/2.%20nmap-portscan.png)
