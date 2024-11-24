@@ -39,7 +39,7 @@ This launches the Metasploit Framework, which provides access to numerous module
 Step 4: Searching for HTTP Version Exploits and Selecting the Exploit
 Inside Metasploit, I searched for potential exploits related to the HTTP service using the following command:
 
-search http_version
+**search http_version**
 This search showed available exploits related to HTTP services, and I selected the first one (ID: 0) from the list.
 
 After selecting the exploit, I used the following command to load it:
