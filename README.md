@@ -7,4 +7,5 @@ Before starting the exploitation process, it’s important to ensure that the ta
 
 ping 192.168.3.130
 This command sends packets to the Metasploitable machine and confirms if the network connection is working. The expected result is a series of replies from the target machine, indicating successful connectivity.
-![Nmap Scan Result](https://github.com/Cyb3rCairo/CyberSec-Practice/blob/main/pentest-images/1.%20ping-scan.png)
+
+![ping results](https://github.com/Cyb3rCairo/CyberSec-Practice/blob/main/pentest-images/1.%20ping-scan.png)
