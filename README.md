@@ -6,6 +6,7 @@ Step 1: Verifying Connectivity with Ping
 Before starting the exploitation process, it’s important to ensure that the target machine is reachable. I used the ping command to check the connectivity between my Kali Linux machine and the Metasploitable VM.
 
 ping <192.168.3.130>
+
 This command sends packets to the Metasploitable machine and confirms if the network connection is working. The expected result is a series of replies from the target machine, indicating successful connectivity.
 
 
@@ -34,3 +35,21 @@ This launches the Metasploit Framework, which provides access to numerous module
 
 
 ![ping results](https://github.com/Cyb3rCairo/CyberSec-Practice/blob/main/pentest-images/3.%20metasploit.png)
+
+Step 4: Searching for HTTP Version Exploits and Selecting the Exploit
+Inside Metasploit, I searched for potential exploits related to the HTTP service using the following command:
+
+search http_version
+This search showed available exploits related to HTTP services, and I selected the first one (ID: 0) from the list.
+
+After selecting the exploit, I used the following command to load it:
+use 0
+
+Then, I displayed the available options for configuring the exploit using:
+
+show options
+This command displayed the required and optional parameters, such as the RHOSTS (target IP address) and RPORT (target port), which I needed to configure in order to proceed.
+
+![ping results](https://github.com/Cyb3rCairo/CyberSec-Practice/blob/main/pentest-images/4.%20metasploit1.png)
+
+
