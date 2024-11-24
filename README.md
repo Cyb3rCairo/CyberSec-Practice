@@ -52,4 +52,10 @@ This command displayed the required and optional parameters, such as the RHOSTS 
 
 ![ping results](https://github.com/Cyb3rCairo/CyberSec-Practice/blob/main/pentest-images/4.%20metasploit1.png)
 
+At this point, I configured the RHOSTS parameter to the target IP address (e.g., 192.168.3.130) and other relevant options.
+
+![ping results](https://github.com/Cyb3rCairo/CyberSec-Practice/blob/main/pentest-images/5.%20metasploit2.png)
+
+
+
 
