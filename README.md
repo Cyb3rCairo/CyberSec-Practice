@@ -22,3 +22,15 @@ Expected Output: The output will show the open port and the version of the servi
 
 
 ![ping results](https://github.com/Cyb3rCairo/CyberSec-Practice/blob/main/pentest-images/2.%20nmap-portscan.png)
+
+Step 3: Opening Metasploit Console
+After discovering that port 80 was open and running a version of Apache, I proceeded to open Metasploit to begin the exploitation phase. The msfconsole is the main interface used to interact with Metasploit’s modules and conduct attacks.
+
+To open Metasploit, I used the following command:
+
+msfconsole
+
+This launches the Metasploit Framework, which provides access to numerous modules for penetration testing and exploitation.
+
+
+![ping results](https://github.com/Cyb3rCairo/CyberSec-Practice/blob/main/pentest-images/3.%20metasploit.png)
